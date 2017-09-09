@@ -1,0 +1,177 @@
+.shepherd-element {
+	box-sizing: border-box;
+}
+.shepherd-element::after {
+	box-sizing: border-box;
+}
+.shepherd-element::before {
+	box-sizing: border-box;
+}
+.shepherd-element * {
+	box-sizing: border-box;
+}
+.shepherd-element *::after {
+	box-sizing: border-box;
+}
+.shepherd-element *::before {
+	box-sizing: border-box;
+}
+.shepherd-element {
+	display: none; position: absolute;
+}
+.shepherd-element.shepherd-open {
+	display: block;
+}
+.shepherd-element.shepherd-theme-default {
+	max-height: 100%; max-width: 100%;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content {
+	background: rgb(246, 246, 246); padding: 1em; border-radius: 5px; color: rgb(68, 68, 68); line-height: 1.5em; font-family: inherit; font-size: 1.1em; position: relative;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content::before {
+	border: 16px solid transparent; width: 0px; height: 0px; display: block; position: absolute; content: ""; pointer-events: none;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-center .shepherd-content {
+	margin-bottom: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-center .shepherd-content::before {
+	left: 50%; top: 100%; margin-left: -16px; border-top-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-center .shepherd-content {
+	margin-top: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-center .shepherd-content::before {
+	left: 50%; bottom: 100%; margin-left: -16px; border-bottom-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-right.shepherd-element-attached-middle .shepherd-content {
+	margin-right: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-right.shepherd-element-attached-middle .shepherd-content::before {
+	left: 100%; top: 50%; margin-top: -16px; border-left-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-left.shepherd-element-attached-middle .shepherd-content {
+	margin-left: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-left.shepherd-element-attached-middle .shepherd-content::before {
+	top: 50%; right: 100%; margin-top: -16px; border-right-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-bottom .shepherd-content {
+	margin-top: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-bottom .shepherd-content::before {
+	left: 16px; bottom: 100%; border-bottom-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-bottom .shepherd-content {
+	margin-top: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-bottom .shepherd-content::before {
+	right: 16px; bottom: 100%; border-bottom-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-top .shepherd-content {
+	margin-bottom: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-top .shepherd-content::before {
+	left: 16px; top: 100%; border-top-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-top .shepherd-content {
+	margin-bottom: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-top .shepherd-content::before {
+	top: 100%; right: 16px; border-top-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-left .shepherd-content {
+	margin-right: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-left .shepherd-content::before {
+	left: 100%; top: 16px; border-left-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-right .shepherd-content {
+	margin-left: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-right .shepherd-content::before {
+	top: 16px; right: 100%; border-right-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-left .shepherd-content {
+	margin-right: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-left .shepherd-content::before {
+	left: 100%; bottom: 16px; border-left-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-right .shepherd-content {
+	margin-left: 16px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-right .shepherd-content::before {
+	right: 100%; bottom: 16px; border-right-color: rgb(246, 246, 246);
+}
+.shepherd-element.shepherd-theme-default {
+	font-size: 1em; z-index: 9999; max-width: 24em;
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-center.shepherd-has-title .shepherd-content::before {
+	border-bottom-color: rgb(230, 230, 230);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-bottom.shepherd-has-title .shepherd-content::before {
+	border-bottom-color: rgb(230, 230, 230);
+}
+.shepherd-element.shepherd-theme-default.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-bottom.shepherd-has-title .shepherd-content::before {
+	border-bottom-color: rgb(230, 230, 230);
+}
+.shepherd-element.shepherd-theme-default.shepherd-has-title .shepherd-content header {
+	background: rgb(230, 230, 230); padding: 1em;
+}
+.shepherd-element.shepherd-theme-default.shepherd-has-title .shepherd-content header a.shepherd-cancel-link {
+	padding: 0px; margin-bottom: 0px;
+}
+.shepherd-element.shepherd-theme-default.shepherd-has-cancel-link .shepherd-content header h3 {
+	float: left;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content {
+	padding: 0px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.17);
+}
+.shepherd-element.shepherd-theme-default .shepherd-content * {
+	font-size: inherit;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content header {
+	border-radius: 5px 5px 0px 0px;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content header::after {
+	clear: both; display: table; content: "";
+}
+.shepherd-element.shepherd-theme-default .shepherd-content header h3 {
+	margin: 0px; line-height: 1; font-weight: normal;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content header a.shepherd-cancel-link {
+	padding: 0.8em; top: 0.1em; color: rgba(0, 0, 0, 0.5); line-height: 0.8em; font-size: 1.25em; font-weight: normal; text-decoration: none; margin-bottom: -0.8em; float: right; position: relative; opacity: 0.25;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content header a.shepherd-cancel-link:hover {
+	opacity: 1;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content .shepherd-text {
+	padding: 1em;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content .shepherd-text p {
+	margin: 0px 0px 0.5em; line-height: 1.3em;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content .shepherd-text p:last-child {
+	margin-bottom: 0px;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer {
+	padding: 0px 1em 1em;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer .shepherd-buttons {
+	list-style: none; margin: 0px; padding: 0px; text-align: right;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer .shepherd-buttons li {
+	margin: 0px; padding: 0px; display: inline;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer .shepherd-buttons li .shepherd-button {
+	background: rgb(50, 136, 230); margin: 0px 0.5em 0px 0px; padding: 0.75em 2em; border-radius: 3px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1em; letter-spacing: 0.1em; font-family: inherit; font-size: 0.8em; vertical-align: middle; display: inline-block; cursor: pointer;
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer .shepherd-buttons li .shepherd-button.shepherd-button-secondary {
+	background: rgb(238, 238, 238); color: rgb(136, 136, 136);
+}
+.shepherd-element.shepherd-theme-default .shepherd-content footer .shepherd-buttons li:last-child .shepherd-button {
+	margin-right: 0px;
+}
+.shepherd-start-tour-button.shepherd-theme-default {
+	background: rgb(50, 136, 230); margin: 0px 0.5em 0px 0px; padding: 0.75em 2em; border-radius: 3px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 1em; letter-spacing: 0.1em; font-family: inherit; font-size: 0.8em; vertical-align: middle; display: inline-block; cursor: pointer;
+}
