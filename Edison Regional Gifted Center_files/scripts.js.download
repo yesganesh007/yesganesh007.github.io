@@ -1,0 +1,10 @@
+$(function(){
+		$('.top-level:last-child,#quicklinks li:last-child').css({'background': 'none'});
+	
+		$('#googleTranslate').wrap('<div id="preGoogle" />');
+
+		$('#login').hover(function(){
+		$('#login #form').stop(true, true).slideToggle(400);
+	});
+	
+});

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Orange Bond Template</title>
+<title>Orange Bond - About</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <!--
@@ -45,7 +45,13 @@ ddsmoothmenu.init({
 })
 
 </script>
-  
+
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+<script src="js/lightbox.js" type="text/javascript"></script>
+
 </head>
 <body>
 
@@ -62,15 +68,15 @@ ddsmoothmenu.init({
     	<div id="site_title"><h1><a href="#">Orange Bond</a></h1></div>
         <div id="tooplate_menu" class="ddsmoothmenu">
             <ul>
-              <li><a href="index.html" class="selected">Home</a></li>
-          		<li><a href="about.html">About</a>
+              <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="selected">About</a>
                     <ul>
                         <li><a href="#">Sub menu 1</a></li>
                         <li><a href="#">Sub menu 2</a></li>
                         <li><a href="#">Sub menu 3</a></li>
                   </ul>
               </li>
-         	  <li><a href="portfolio.html">Portfolio</a>
+          <li><a href="portfolio.html">Portfolio</a>
                     <ul>
                         <li><a href="#">Sub menu 1</a></li>
                         <li><a href="#">Sub menu 2</a></li>
@@ -87,75 +93,36 @@ ddsmoothmenu.init({
     </div>
     
     <div id="tooplate_mid_wrapper">
-    	<div id="tooplate_mid_home">
-        	
-            <div id="slider-wrapper">
-        
-                <div id="slider" class="nivoSlider">
-                    <img src="images/slider/01.jpg" alt="Image 01" title="Donec sit amet gravida quam ut condimentum risus." />
-                    <img src="images/slider/02.jpg" alt="Image 02" title="Aenean tortor vel porttitor volutpat." />
-                    <img src="images/slider/03.jpg" alt="Image 03" title="Curabitur rhoncus facilisis dolor eu dapibus." />
-                    <img src="images/slider/04.jpg" alt="Image 04" title="Etiam faucibus felis eget metus tempor." />
-                </div>
-                <div id="htmlcaption" class="nivo-html-caption">
-                    <strong>This</strong> is an example of a HTML caption with <a href="#">a link</a>.
-                </div>
-            
-            </div>
-                <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
-				<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-                <script type="text/javascript">
-                $(window).load(function() {
-                    $('#slider').nivoSlider();
-                });
-                </script>
+    	<div id="tooplate_mid_sub">
 
-            <div id="mid_left">
-                <div id="mid_title">
-                    Introducing Orange Bond
-                </div>
-                <p id="mid_text">  Aliquam in odio ut ipsum mollis facilisis. Integer est sem, dignissim quis auctor vel, dapibus vel massa. Curabitur vulputate ligula vel mi semper tempus. Aenean pellentesque, tortor vel porttitor volutpat, est lorem aliquet justo, tincidunt sagittis purus mi ut mauris.</p>
-                <div id="learn_more"><a href="#">Learn More</a></div>
-            </div>
-            <div class="cleaner"></div>
-        	
+			<div id="mid_title">About Our Company</div>
+            <p id="mid_text">Aliquam erat volutpat. Nunc et nunc vel quam tincidunt mollis. Integer dignissim ullamcorper nunc, a fermentum ligula egestas a. Integer congue tellus sed nisi tincidunt cursus. Etiam adipiscing consequat nisi. </p>
+           
         </div>
     </div>
 </div> <!-- end of header -->
 
 <div id="tooplate_main">
-	<div class="col_3">
-    	<div class="title_with_icon"><img src="images/presentation.png" alt="image" /><h3>Lorem Ipsum Dolor Sit Amet</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Orange Bond Theme is free website template for everyone. You may download, edit and use this template for your websites.</p>
+	<div class="about_box">
+    	<img src="images/user.jpg" alt="" />
+        <h4>Etiam Tellus</h4>
+        <p class="position">CEO</p>
+        <p>Vivamus at sapien eros, vel tempus est. Donec ut faucibus augue. Sed interdum placerat laoreet. Ut nunc diam, hendrerit quis lacinia et, feugiat vitae massa. Aliquam non luctus augue. In vitae pulvinar lectus. Aliquam pharetra ante in est fringilla vitae consectetur magna faucibus. </p>
+        <div class="cleaner"></div>
     </div>
-    <div class="col_3">
-    	<div class="title_with_icon"><img src="images/preferences.png" alt="image" /><h3>Mauris Pretium Ullamcorper Orci</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Donec non leo vitae turpis lacinia placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. </p>
+    <div class="about_box">
+    	<img src="images/user.jpg" alt="" />
+        <h4>Aenean Semper Elit </h4>
+        <p class="position">Developer</p>
+        <p>Nam mi mi, commodo vel consequat eu, pharetra ac erat. Suspendisse sed dolor nec eros adipiscing faucibus. Etiam a tellus magna. Suspendisse ut tellus enim. Phasellus arcu nulla, molestie ac varius vel, ultrices id urna. Suspendisse vestibulum tortor id ante accumsan congue.</p>
+        <div class="cleaner"></div>
     </div>
-    <div class="col_3 col_l">
-    	<div class="title_with_icon"><img src="images/magic_wand.png" alt="image" /><h3>Donec Facilisis Sodales Justo ut Ornare</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Phasellus id neque dignissim diam tincidunt gravida. Duis quis mi urna. Proin venenatis tellus eget nisi aliquet ac hendrerit est sagittis. </p>
-    </div>
-    <div class="cleaner h30"></div>
-    <div class="col_3">
-    	<div class="title_with_icon"><img src="images/screen_aqua.png" alt="image" /><h3>Etiam Sit Amet Augue Eget Justo</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Nullam tellus mi, convallis quis accumsan quis, tempor id purus. Quisque ut nisl est, eget bibendum libero. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
-    </div>
-    <div class="col_3">
-    	<div class="title_with_icon"><img src="images/search.png" alt="image" />
-    	<h3>Donec Ornare Turpis Non Purus Imperdiet</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Etiam sit amet augue eget justo pharetra pharetra at in sem. Pellentesque et tortor dui, sit amet ullamcorper arcu.</p>
-    </div>
-    <div class="col_3 col_l">
-    	<div class="title_with_icon"><img src="images/security.png" alt="image" />
-    	<h3>Aenean Ultrices  Velit Mattis Semper</h3></div>
-        <div class="cleaner h10"></div>
-        <p>Cras a convallis mauris. Vestibulum ipsum mi, pellentesque sit amet faucibus nec, sollicitudin et quam purus vel nibh.</p>
+    <div class="about_box">
+    	<img src="images/user.jpg" alt="" />
+        <h4>Morbi Dolestie</h4>
+        <p class="position">Designer</p>
+        <p> Nam egestas ornare eleifend. Nunc dictum diam vitae mi aliquam bibendum. Maecenas porttitor felis nec leo convallis facilisis. Duis eget libero libero. Aenean nec mauris eu magna lorem auctor volutpat. Donec placerat dictum magna, a suscipit magna enim sollicitudin ac. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
+        <div class="cleaner"></div>
     </div>
     <div class="cleaner"></div>
 </div>
@@ -202,6 +169,7 @@ ddsmoothmenu.init({
         <div class="cleaner"></div>
     </div>
 </div>
+
 
 <div id="tooplate_cr_bar_wrapper">
 	<div id="tooplate_cr_bar">
